@@ -1,0 +1,6 @@
+framework module Pods_SUCheckButton_Tests {
+  umbrella header "Pods-SUCheckButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

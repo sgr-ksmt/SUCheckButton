@@ -1,0 +1,6 @@
+framework module SUCheckButton {
+  umbrella header "SUCheckButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
