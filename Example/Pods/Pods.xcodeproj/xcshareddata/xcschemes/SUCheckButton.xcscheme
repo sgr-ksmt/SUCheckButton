@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B1456047921C20D0F4F7527D'
+               BlueprintIdentifier = '707B64E78DBAA753E9976BBB'
                BlueprintName = 'SUCheckButton'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SUCheckButton.framework'>

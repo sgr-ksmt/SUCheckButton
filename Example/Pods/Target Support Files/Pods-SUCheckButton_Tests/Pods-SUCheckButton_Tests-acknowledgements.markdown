@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SUCheckButton
 
-Copyright (c) 2015 Su- <su@sfidante.co.jp>
+Copyright (c) 2015 Suguru Kishimoto <su@sfidante.co.jp>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

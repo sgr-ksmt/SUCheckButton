@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SUCheckButton
 //
-//  Created by Su- on 11/13/2015.
-//  Copyright (c) 2015 Su-. All rights reserved.
+//  Created by Suguru Kishimoto on 11/13/2015.
+//  Copyright (c) 2015 Suguru Kishimoto. All rights reserved.
 //
 
 import UIKit
@@ -62,6 +62,11 @@ class ViewController: UIViewController {
     
     @objc @IBAction private func changeUncheckedFillColor(sender: AnyObject!) {
         checkButton.uncheckedFillColor = getRandomFillColor()
+    }
+
+    @objc @IBAction private func resetColor(sender: AnyObject!) {
+        checkButton.checkedFillColor = SUCheckButton.Default.checkedFillColor;
+        checkButton.uncheckedFillColor = SUCheckButton.Default.uncheckedFillColor;
     }
 
 }

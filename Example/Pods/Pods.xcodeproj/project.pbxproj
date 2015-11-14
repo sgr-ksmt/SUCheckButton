@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13B53828102F7CBFDE2CED4EDD1A131A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		429C9E16947328E568D6D8AB8FBBD91C /* SUCheckButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E45FA30EE61AF99192D988DB27F64F81 /* SUCheckButton-dummy.m */; };
 		606D0F7C0E79F38A1B5AD9A2C6617930 /* SUCheckButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */; };
 		655704CBC0DB16B118D1F506989E0BC5 /* Pods-SUCheckButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B557C527A1EB470C40EF2258405994 /* Pods-SUCheckButton_Tests-dummy.m */; };
 		6C24BA75F37D5A5E8115B237EB954C72 /* Pods-SUCheckButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 974380C47365301CCEF74B3C93D3A77D /* Pods-SUCheckButton_Example-dummy.m */; };
 		96971428536C9A8E6544C83EF0507E8F /* Pods-SUCheckButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D490B866128ECFF6ADF9FAD9721E29 /* Pods-SUCheckButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9900ECA0607040F32A75F8FE61C5BDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
 		9CFD528991C7A025FE2D297C3E3D4C8C /* Pods-SUCheckButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4772FDAF2D662D0E2260258521B944 /* Pods-SUCheckButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA6FDE8CE2DBB08E4362FE4B21D7384C /* SUCheckButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DC9B2B14DF14EFAAED95305FCAB8BB /* SUCheckButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E080FB22D55345CC262468246F755529 /* SUCheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A41CCB8476230DC54EB96EDFD5FBB6 /* SUCheckButton.swift */; };
-		ECE07A11F979675FF7C25D8DB9CE7C72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		FAA7BA8A242E726E41043FC0DF25E9AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E26E2B25C4B1F5228CCF18F4831713BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
+		E2BCCDF38E106E04184DB1CD83B3A58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,6 @@
 		2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUCheckButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		31919582F53D35557E4EEB2D6C1056E9 /* Pods-SUCheckButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SUCheckButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		3705953F1D153D9DDDA85B172B7079DE /* Pods-SUCheckButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SUCheckButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		50A41CCB8476230DC54EB96EDFD5FBB6 /* SUCheckButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUCheckButton.swift; sourceTree = "<group>"; };
 		58B557C527A1EB470C40EF2258405994 /* Pods-SUCheckButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SUCheckButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		5E56FC1AB46CFF95E8DB0D4CED6887F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SUCheckButton.xcconfig; sourceTree = "<group>"; };
 		EB4772FDAF2D662D0E2260258521B944 /* Pods-SUCheckButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SUCheckButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC1DF6718BB3FAC5500C023572803902 /* Pods-SUCheckButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SUCheckButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SUCheckButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B53828102F7CBFDE2CED4EDD1A131A /* Foundation.framework in Frameworks */,
+				E2BCCDF38E106E04184DB1CD83B3A58D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE07A11F979675FF7C25D8DB9CE7C72 /* Foundation.framework in Frameworks */,
+				9900ECA0607040F32A75F8FE61C5BDD2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA7BA8A242E726E41043FC0DF25E9AA /* Foundation.framework in Frameworks */,
+				E26E2B25C4B1F5228CCF18F4831713BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +149,14 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		6F8AF094D75C4EDAC12C31FAFB15A237 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +193,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,14 +207,6 @@
 				882D6BE67771B23834077D6C90BF5803 /* SUCheckButton.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		BFAF04833904C7EE7107A72DD26F4491 /* SUCheckButton */ = {
@@ -452,6 +452,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		09D046678EB30D47F8BD5BBE459728A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -483,6 +511,35 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EC6AA771EDDAA84AA1655BBF1B8543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973FBA6357BC78FB443F83C7C67943B1 /* Pods-SUCheckButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SUCheckButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -525,9 +582,36 @@
 			};
 			name = Debug;
 		};
-		6C6121967C3280F670923A22BAFF13B5 /* Debug */ = {
+		6FF6D6F9B39EEEBFE9B42AB634E3E8D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03A9752C7CA01B2EE2B7D2E13A8CE3C9 /* Pods-SUCheckButton_Example.debug.xcconfig */;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B080611611CC63FCA855A5EF7653E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -536,17 +620,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SUCheckButton_Example;
+				PRODUCT_NAME = Pods_SUCheckButton_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -568,34 +651,6 @@
 			};
 			name = Debug;
 		};
-		AA4BB9280F5D53D12431A89DD1EF9D9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SUCheckButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		AC5B357B07D7A4BAE7DD3B2A180C5AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
@@ -608,9 +663,9 @@
 			};
 			name = Release;
 		};
-		C1F56991049B33C29A8B628FCE1EF386 /* Debug */ = {
+		D696D2078D3E4A4490F18E0A4A365573 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = 03A9752C7CA01B2EE2B7D2E13A8CE3C9 /* Pods-SUCheckButton_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -619,17 +674,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SUCheckButton_Tests;
+				PRODUCT_NAME = Pods_SUCheckButton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -639,7 +693,7 @@
 			};
 			name = Debug;
 		};
-		CCB59C09B03A46A2291297245F247E33 /* Release */ = {
+		E689B71DF8ADDB6DC5EC2AB5A3E91D70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61B25408A7095833340E52FC34806BF4 /* Pods-SUCheckButton_Example.release.xcconfig */;
 			buildSettings = {
@@ -654,7 +708,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -669,71 +722,14 @@
 			};
 			name = Release;
 		};
-		E3CD0908ED5A9386CEB7F7B232E0014C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SUCheckButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F09F7FB899CA411A132B18BAAA5B3339 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 973FBA6357BC78FB443F83C7C67943B1 /* Pods-SUCheckButton_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SUCheckButton_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		15AC3EE2D170DA21837C95F0A44909A2 /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C6121967C3280F670923A22BAFF13B5 /* Debug */,
-				CCB59C09B03A46A2291297245F247E33 /* Release */,
+				D696D2078D3E4A4490F18E0A4A365573 /* Debug */,
+				E689B71DF8ADDB6DC5EC2AB5A3E91D70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,8 +755,8 @@
 		C66428BA99E966EFDE1652A78E5E0E6D /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F56991049B33C29A8B628FCE1EF386 /* Debug */,
-				F09F7FB899CA411A132B18BAAA5B3339 /* Release */,
+				9B080611611CC63FCA855A5EF7653E95 /* Debug */,
+				51EC6AA771EDDAA84AA1655BBF1B8543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,8 +764,8 @@
 		E2D13C9768F2151F210E19922C9BEC5A /* Build configuration list for PBXNativeTarget "SUCheckButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA4BB9280F5D53D12431A89DD1EF9D9A /* Debug */,
-				E3CD0908ED5A9386CEB7F7B232E0014C /* Release */,
+				09D046678EB30D47F8BD5BBE459728A0 /* Debug */,
+				6FF6D6F9B39EEEBFE9B42AB634E3E8D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
