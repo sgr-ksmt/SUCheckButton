@@ -5,6 +5,8 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 light-weight check button in Swift.
+Equip @IBInspectable, @IBDesignable.
+SUCheckButton is Subclass of UIControl.
                        DESC
 
   s.homepage         = "https://github.com/sgr-ksmt/SUCheckButton"
