@@ -20,7 +20,7 @@ public class SUCheckButton: UIControl {
     // MARK: - Properties
     
     // MARK: check status
-    @IBInspectable var checked: Bool = false {
+    @IBInspectable public var checked: Bool = false {
         didSet {
             self.setNeedsDisplay()
         }

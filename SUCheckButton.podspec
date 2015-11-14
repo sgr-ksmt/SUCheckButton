@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SUCheckButton"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "light-weight check button in Swift."
 
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ SUCheckButton is Subclass of UIControl.
                        DESC
 
   s.homepage         = "https://github.com/sgr-ksmt/SUCheckButton"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://github.com/sgr-ksmt/SUCheckButton/blob/master/screenshots/screenshot1.png"
   s.license          = 'MIT'
   s.author           = { "Suguru Kishimoto" => "su@sfidante.co.jp" }
   s.source           = { :git => "https://github.com/sgr-ksmt/SUCheckButton.git", :tag => s.version.to_s }
