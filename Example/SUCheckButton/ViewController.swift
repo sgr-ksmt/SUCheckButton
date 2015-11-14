@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var checkButton: SUCheckButton! {
         didSet {
             checkButton.checkedFillColor = UIColor(red: 1.0, green: 0.2, blue: 0.1, alpha: 1.0)
+            checkButton.checked = false
             checkButton.didPressHandler = { [weak self] (checked: Bool) in
                 self?.updateStatus()
             }
