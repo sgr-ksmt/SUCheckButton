@@ -10,46 +10,106 @@ import UIKit
 
 @IBDesignable
 public class SUCheckButton: UIControl {
-    static let DefaultHeight: CGFloat = 30.0
     
-    @IBInspectable var checked: Bool = false {
-        didSet { self.setNeedsDisplay() }
+    public struct Default {
+        public static let buttonHeight: CGFloat = 30.0
+        public static let checkedFillColor: UIColor = UIColor(red: 0.078, green: 0.435, blue: 0.875, alpha: 1.0)
+        public static let uncheckedFillColor: UIColor = UIColor(white: 1.0, alpha: 0.6)
     }
-    var isChecked: Bool {
+    
+    // MARK: - Properties
+    
+    // MARK: check status
+    @IBInspectable var checked: Bool = false {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    public var isChecked: Bool {
         get { return checked }
     }
     
-    @IBInspectable var checkStrokeWidth: CGFloat = 1.5 {
-        didSet { checkStrokeWidth = max(0.0, checkStrokeWidth) }
+    // MARK: stroke, border width
+    @IBInspectable public var checkStrokeWidth: CGFloat = 1.5 {
+        didSet {
+            checkStrokeWidth = max(0.0, checkStrokeWidth)
+            self.setNeedsDisplay()
+        }
+    }
+    @IBInspectable public var borderWidth: CGFloat = 1.0 {
+        didSet {
+            borderWidth = max(0.0, borderWidth)
+            self.setNeedsDisplay()
+        }
     }
     
-    @IBInspectable var borderWidth: CGFloat = 1.0 {
-        didSet { borderWidth = max(0.0, borderWidth) }
+    // MARK: checked color options
+    @IBInspectable public var checkedColor: UIColor? = UIColor.whiteColor() {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    @IBInspectable public var checkedFillColor: UIColor? = Default.checkedFillColor {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    @IBInspectable public var checkedBorderColor: UIColor? = UIColor.whiteColor() {
+        didSet {
+            self.setNeedsDisplay()
+        }
     }
 
-    @IBInspectable var checkedColor: UIColor? = UIColor.whiteColor()
-    @IBInspectable var checkedFillColor: UIColor? = UIColor(red: 0.078, green: 0.435, blue: 0.875, alpha: 1.0)
-    @IBInspectable var checkedBorderColor: UIColor? = UIColor.whiteColor()
-
-    @IBInspectable var uncheckedColor: UIColor? = UIColor(white: 0.8, alpha: 1.0)
-    @IBInspectable var uncheckedFillColor: UIColor? = UIColor(white: 1.0, alpha: 0.6)
-    @IBInspectable var uncheckedBorderColor: UIColor? = UIColor.whiteColor()
-    
-    @IBInspectable var shadowColor: UIColor? = UIColor.blackColor()
-    
-    @IBInspectable var animationEnabled : Bool = true
-    @IBInspectable var animationScale: CGFloat = 1.05
-    
-    @IBInspectable var highlightColor: UIColor? = UIColor(white: 0.5, alpha: 0.3)
-    
-    typealias DidPressHandler = ((checked: Bool) -> Void)
-    var didPressHandler: DidPressHandler?
-    
-    convenience init() {
-        self.init(frame: CGRect(x: 0.0, y: 0.0, width: self.dynamicType.DefaultHeight, height: self.dynamicType.DefaultHeight))
+    // MARK: unchecked color options
+    @IBInspectable public var uncheckedColor: UIColor? = UIColor(white: 0.8, alpha: 1.0) {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    @IBInspectable public var uncheckedFillColor: UIColor? = Default.uncheckedFillColor {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    @IBInspectable public var uncheckedBorderColor: UIColor? = UIColor.whiteColor() {
+        didSet {
+            self.setNeedsDisplay()
+        }
     }
     
-    override init(frame: CGRect) {
+    // MARK: shadow color
+    @IBInspectable public var shadowColor: UIColor? = UIColor.blackColor() {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    
+    // MARK: animation settings
+    @IBInspectable public var animationEnabled : Bool = true
+    @IBInspectable public var animationScale: CGFloat = 1.05
+    
+    // MARK: highlight color
+    @IBInspectable public var highlightColor: UIColor? = UIColor(white: 0.5, alpha: 0.3) {
+        didSet {
+            self.setNeedsDisplay()
+        }
+    }
+    
+    // MARK: -
+    
+    // MARK: check status changed handler when button pressed
+    public typealias DidPressHandler = ((checked: Bool) -> Void)
+    public var didPressHandler: DidPressHandler?
+    
+    // MARK: - initializer
+    
+    convenience public init() {
+        let buttonHeight = Default.buttonHeight
+        let square = CGSize(width: buttonHeight, height: buttonHeight)
+        self.init(frame: CGRect(origin: CGPointZero, size: square))
+    }
+    
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
@@ -60,8 +120,10 @@ public class SUCheckButton: UIControl {
     }
     
     private func setup() {
+        //TODO: add code if needed.
     }
     
+    // MARK: - draw methods
     override public func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
@@ -139,6 +201,8 @@ public class SUCheckButton: UIControl {
         ovalPath.fill()
     }
     
+    // MARK: - scale animation
+    
     private func scaleAnimation() {
         UIView.animateWithDuration(0.15, delay: 0.0, options: .BeginFromCurrentState, animations: { [weak self] in
             let scale = self?.animationScale ?? 1.0
@@ -151,7 +215,7 @@ public class SUCheckButton: UIControl {
         })
     }
     
-    // MARK: override tracking
+    // MARK: - override tracking
     
     override public func beginTrackingWithTouch(touch: UITouch, withEvent event: UIEvent?) -> Bool {
         self.setNeedsDisplay()
