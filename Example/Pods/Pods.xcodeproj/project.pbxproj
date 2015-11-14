@@ -1,1745 +1,776 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0098B33AD10007BB1FAB18E3B6A2C3AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03A9752C7CA01B2EE2B7D2E13A8CE3C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04116A200CFD5D0AB9DF7A14213A3046</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>SUCheckButton.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06CD460D14AF12C6C10F514006D2262B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3D2563421E4D58711E83DC3CF8C419E3</string>
-				<string>991F75F6FC2590BFBA6861C4AE9FE19E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>09D046678EB30D47F8BD5BBE459728A0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E68F997984C8BE601CB329E90BB302A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SUCheckButton/SUCheckButton-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SUCheckButton/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SUCheckButton/SUCheckButton.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SUCheckButton</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0FD957AD3A45B96857E109DC17474ED9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E68F60B4E1D0133BCE3C63776BF5EEEE</string>
-				<string>A080EB5EF83A82251B7A69AEDB556CA6</string>
-				<string>A48D7A3E624A6DD862C8AD9B227CC9CD</string>
-				<string>3705953F1D153D9DDDA85B172B7079DE</string>
-				<string>58B557C527A1EB470C40EF2258405994</string>
-				<string>18D4BEF079729273327059D29AB9C684</string>
-				<string>31919582F53D35557E4EEB2D6C1056E9</string>
-				<string>EB4772FDAF2D662D0E2260258521B944</string>
-				<string>FAC85746E5F3372BF8EBB599FFE36685</string>
-				<string>973FBA6357BC78FB443F83C7C67943B1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SUCheckButton_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-SUCheckButton_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10C374F1D66CD4C6312555C6A5E22BA6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFAF04833904C7EE7107A72DD26F4491</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10C7724DD757EEA026B36E16097A31B7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AA6FDE8CE2DBB08E4362FE4B21D7384C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>15AC3EE2D170DA21837C95F0A44909A2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D696D2078D3E4A4490F18E0A4A365573</string>
-				<string>E689B71DF8ADDB6DC5EC2AB5A3E91D70</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>18D4BEF079729273327059D29AB9C684</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B2017141ED106FD6EB9CC396FA02C2E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SUCheckButton.bundle</string>
-			<key>path</key>
-			<string>SUCheckButton.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>31919582F53D35557E4EEB2D6C1056E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3705953F1D153D9DDDA85B172B7079DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3935C2B84292D5D4BF6A3FC5C575797A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3D191BE5F40D91486D261D08F5D7127F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>5965238C32A60A3DB3B241F50081A7DE</string>
-			<key>remoteInfo</key>
-			<string>SUCheckButton-SUCheckButton</string>
-		</dict>
-		<key>3D2563421E4D58711E83DC3CF8C419E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C8466FFFCDDED73EDA0DEB3851C2DF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4719CE93AF3C5964765ED28CD5A6B145</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>606D0F7C0E79F38A1B5AD9A2C6617930</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4A23D4FA4518C3A666A3332C077303B9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DDDABE930692DFE80836BF960CBE1DE6</string>
-			<key>remoteInfo</key>
-			<string>SUCheckButton</string>
-		</dict>
-		<key>51EC6AA771EDDAA84AA1655BBF1B8543</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>973FBA6357BC78FB443F83C7C67943B1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_SUCheckButton_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>53F661C0CA7190D2CF05023FB33D61E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F1E2ED00EF083FA9E3772A4BC41629F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>58B557C527A1EB470C40EF2258405994</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5965238C32A60A3DB3B241F50081A7DE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>784B83F0A53C590B8605EA61469D7C4A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3935C2B84292D5D4BF6A3FC5C575797A</string>
-				<string>64AA686E87D044D9863CF48ADBEEAEA0</string>
-				<string>B7D678E32590439353077D2D08FDB4F6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SUCheckButton-SUCheckButton</string>
-			<key>productName</key>
-			<string>SUCheckButton-SUCheckButton</string>
-			<key>productReference</key>
-			<string>2B2017141ED106FD6EB9CC396FA02C2E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>5E56FC1AB46CFF95E8DB0D4CED6887F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>606D0F7C0E79F38A1B5AD9A2C6617930</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B2017141ED106FD6EB9CC396FA02C2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61B25408A7095833340E52FC34806BF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63B43B1867BD0D7C4FCD0574C4E87506</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>655704CBC0DB16B118D1F506989E0BC5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>64AA686E87D044D9863CF48ADBEEAEA0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>655704CBC0DB16B118D1F506989E0BC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>58B557C527A1EB470C40EF2258405994</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6C24BA75F37D5A5E8115B237EB954C72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>974380C47365301CCEF74B3C93D3A77D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F8AF094D75C4EDAC12C31FAFB15A237</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E56FC1AB46CFF95E8DB0D4CED6887F8</string>
-				<string>04116A200CFD5D0AB9DF7A14213A3046</string>
-				<string>E68F997984C8BE601CB329E90BB302A6</string>
-				<string>E45FA30EE61AF99192D988DB27F64F81</string>
-				<string>788CCD3567FC6F967EE9AB7456A61771</string>
-				<string>D4DC9B2B14DF14EFAAED95305FCAB8BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/SUCheckButton</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FF6D6F9B39EEEBFE9B42AB634E3E8D7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E68F997984C8BE601CB329E90BB302A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SUCheckButton/SUCheckButton-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SUCheckButton/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SUCheckButton/SUCheckButton.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SUCheckButton</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>71056BEECADE39367FC69450C2E42E6F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2BCCDF38E106E04184DB1CD83B3A58D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>715CE5D4B60414E2CD534327A967AD9B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_SUCheckButton_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_SUCheckButton_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>779D1552BFD8D08C1FE199EA550E5D0E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9900ECA0607040F32A75F8FE61C5BDD2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>784B83F0A53C590B8605EA61469D7C4A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A841FA231DD0BFB3CA81E115B3422B97</string>
-				<string>AC5B357B07D7A4BAE7DD3B2A180C5AE5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>788CCD3567FC6F967EE9AB7456A61771</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SUCheckButton-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B8EB724833BE2AFC43E727F04F1B3FF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>10C374F1D66CD4C6312555C6A5E22BA6</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>BD89ABE103F63DF7D9036DD33E8EA3C6</string>
-				<string>FF0CEF0BAA24FBE2B61CC51D74ED65A8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8432687CA788E0F223414D32E8DDD2E1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E26E2B25C4B1F5228CCF18F4831713BE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>882D6BE67771B23834077D6C90BF5803</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SUCheckButton.framework</string>
-			<key>path</key>
-			<string>SUCheckButton.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>93D490B866128ECFF6ADF9FAD9721E29</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96971428536C9A8E6544C83EF0507E8F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93D490B866128ECFF6ADF9FAD9721E29</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>973FBA6357BC78FB443F83C7C67943B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>974380C47365301CCEF74B3C93D3A77D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>979D57C9ABBB7B5B83A58D9F5035D1DE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SUCheckButton</string>
-			<key>target</key>
-			<string>DDDABE930692DFE80836BF960CBE1DE6</string>
-			<key>targetProxy</key>
-			<string>A4CEAFC6203386EB93C28E84AC2424EC</string>
-		</dict>
-		<key>9900ECA0607040F32A75F8FE61C5BDD2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1E2ED00EF083FA9E3772A4BC41629F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>991F75F6FC2590BFBA6861C4AE9FE19E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E45FA30EE61AF99192D988DB27F64F81</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9A07AFD7A32B2151E0AE81F45D190F28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ACFE50820E4D44D030C36887F1FB936</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SUCheckButton-SUCheckButton</string>
-			<key>target</key>
-			<string>5965238C32A60A3DB3B241F50081A7DE</string>
-			<key>targetProxy</key>
-			<string>3D191BE5F40D91486D261D08F5D7127F</string>
-		</dict>
-		<key>9B080611611CC63FCA855A5EF7653E95</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FAC85746E5F3372BF8EBB599FFE36685</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_SUCheckButton_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9C8466FFFCDDED73EDA0DEB3851C2DF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ReplaceMe.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CFD528991C7A025FE2D297C3E3D4C8C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB4772FDAF2D662D0E2260258521B944</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A080EB5EF83A82251B7A69AEDB556CA6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0852D62439AA82D338ECB43A75EA077</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SUCheckButton</string>
-			<key>target</key>
-			<string>DDDABE930692DFE80836BF960CBE1DE6</string>
-			<key>targetProxy</key>
-			<string>4A23D4FA4518C3A666A3332C077303B9</string>
-		</dict>
-		<key>A48D7A3E624A6DD862C8AD9B227CC9CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4CEAFC6203386EB93C28E84AC2424EC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>DDDABE930692DFE80836BF960CBE1DE6</string>
-			<key>remoteInfo</key>
-			<string>SUCheckButton</string>
-		</dict>
-		<key>A841FA231DD0BFB3CA81E115B3422B97</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E68F997984C8BE601CB329E90BB302A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SUCheckButton</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AA6FDE8CE2DBB08E4362FE4B21D7384C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4DC9B2B14DF14EFAAED95305FCAB8BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AAD82DBDDAA25B17864EF0592D075AEA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E28E9D547970A80C70265CDFD00BA366</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC5B357B07D7A4BAE7DD3B2A180C5AE5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E68F997984C8BE601CB329E90BB302A6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SUCheckButton</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B7D678E32590439353077D2D08FDB4F6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>53F661C0CA7190D2CF05023FB33D61E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD79DD370F9F430E9B2C27707CE3F41D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6C24BA75F37D5A5E8115B237EB954C72</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BD89ABE103F63DF7D9036DD33E8EA3C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CED346D88C127C1E10059FB244C49304</string>
-				<string>715CE5D4B60414E2CD534327A967AD9B</string>
-				<string>2B2017141ED106FD6EB9CC396FA02C2E</string>
-				<string>882D6BE67771B23834077D6C90BF5803</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFAF04833904C7EE7107A72DD26F4491</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AAD82DBDDAA25B17864EF0592D075AEA</string>
-				<string>6F8AF094D75C4EDAC12C31FAFB15A237</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SUCheckButton</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3F81CE30064D8ED7E9372A2799B3316</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9CFD528991C7A025FE2D297C3E3D4C8C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C66428BA99E966EFDE1652A78E5E0E6D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9B080611611CC63FCA855A5EF7653E95</string>
-				<string>51EC6AA771EDDAA84AA1655BBF1B8543</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C78D2D3A4CB5DC81E08B31DD181014DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CED346D88C127C1E10059FB244C49304</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_SUCheckButton_Example.framework</string>
-			<key>path</key>
-			<string>Pods_SUCheckButton_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D0F1815EE0992253F8BA765EF1E0E0F6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C66428BA99E966EFDE1652A78E5E0E6D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>63B43B1867BD0D7C4FCD0574C4E87506</string>
-				<string>8432687CA788E0F223414D32E8DDD2E1</string>
-				<string>C3F81CE30064D8ED7E9372A2799B3316</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A0852D62439AA82D338ECB43A75EA077</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SUCheckButton_Tests</string>
-			<key>productName</key>
-			<string>Pods-SUCheckButton_Tests</string>
-			<key>productReference</key>
-			<string>715CE5D4B60414E2CD534327A967AD9B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>BD89ABE103F63DF7D9036DD33E8EA3C6</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>DC8B951A28E88C67DC20D0B911360544</string>
-				<string>D0F1815EE0992253F8BA765EF1E0E0F6</string>
-				<string>DDDABE930692DFE80836BF960CBE1DE6</string>
-				<string>5965238C32A60A3DB3B241F50081A7DE</string>
-			</array>
-		</dict>
-		<key>D4DC9B2B14DF14EFAAED95305FCAB8BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SUCheckButton-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D696D2078D3E4A4490F18E0A4A365573</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>03A9752C7CA01B2EE2B7D2E13A8CE3C9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_SUCheckButton_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DC8B951A28E88C67DC20D0B911360544</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>15AC3EE2D170DA21837C95F0A44909A2</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BD79DD370F9F430E9B2C27707CE3F41D</string>
-				<string>71056BEECADE39367FC69450C2E42E6F</string>
-				<string>DE80529E6BC816AD8EC027372999E61C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>979D57C9ABBB7B5B83A58D9F5035D1DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SUCheckButton_Example</string>
-			<key>productName</key>
-			<string>Pods-SUCheckButton_Example</string>
-			<key>productReference</key>
-			<string>CED346D88C127C1E10059FB244C49304</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>DDDABE930692DFE80836BF960CBE1DE6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E2D13C9768F2151F210E19922C9BEC5A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>06CD460D14AF12C6C10F514006D2262B</string>
-				<string>779D1552BFD8D08C1FE199EA550E5D0E</string>
-				<string>4719CE93AF3C5964765ED28CD5A6B145</string>
-				<string>10C7724DD757EEA026B36E16097A31B7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9ACFE50820E4D44D030C36887F1FB936</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SUCheckButton</string>
-			<key>productName</key>
-			<string>SUCheckButton</string>
-			<key>productReference</key>
-			<string>882D6BE67771B23834077D6C90BF5803</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>DE80529E6BC816AD8EC027372999E61C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>96971428536C9A8E6544C83EF0507E8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E26E2B25C4B1F5228CCF18F4831713BE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1E2ED00EF083FA9E3772A4BC41629F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E28E9D547970A80C70265CDFD00BA366</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C8466FFFCDDED73EDA0DEB3851C2DF4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2BCCDF38E106E04184DB1CD83B3A58D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F1E2ED00EF083FA9E3772A4BC41629F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E2D13C9768F2151F210E19922C9BEC5A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>09D046678EB30D47F8BD5BBE459728A0</string>
-				<string>6FF6D6F9B39EEEBFE9B42AB634E3E8D7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E41381D86783367231AC667DD22ED261</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E45FA30EE61AF99192D988DB27F64F81</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SUCheckButton-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E689B71DF8ADDB6DC5EC2AB5A3E91D70</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>61B25408A7095833340E52FC34806BF4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_SUCheckButton_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>E68F60B4E1D0133BCE3C63776BF5EEEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E68F997984C8BE601CB329E90BB302A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SUCheckButton.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB4772FDAF2D662D0E2260258521B944</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC1DF6718BB3FAC5500C023572803902</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1E2ED00EF083FA9E3772A4BC41629F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>F3DFA9D96EDF110C570BD3A9A62A1511</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E41381D86783367231AC667DD22ED261</string>
-				<string>9A07AFD7A32B2151E0AE81F45D190F28</string>
-				<string>7B8EB724833BE2AFC43E727F04F1B3FF</string>
-				<string>EC1DF6718BB3FAC5500C023572803902</string>
-				<string>974380C47365301CCEF74B3C93D3A77D</string>
-				<string>C78D2D3A4CB5DC81E08B31DD181014DF</string>
-				<string>0098B33AD10007BB1FAB18E3B6A2C3AB</string>
-				<string>93D490B866128ECFF6ADF9FAD9721E29</string>
-				<string>03A9752C7CA01B2EE2B7D2E13A8CE3C9</string>
-				<string>61B25408A7095833340E52FC34806BF4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-SUCheckButton_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-SUCheckButton_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAC85746E5F3372BF8EBB599FFE36685</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SUCheckButton_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF0CEF0BAA24FBE2B61CC51D74ED65A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F3DFA9D96EDF110C570BD3A9A62A1511</string>
-				<string>0FD957AD3A45B96857E109DC17474ED9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		429C9E16947328E568D6D8AB8FBBD91C /* SUCheckButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E45FA30EE61AF99192D988DB27F64F81 /* SUCheckButton-dummy.m */; };
+		606D0F7C0E79F38A1B5AD9A2C6617930 /* SUCheckButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */; };
+		655704CBC0DB16B118D1F506989E0BC5 /* Pods-SUCheckButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B557C527A1EB470C40EF2258405994 /* Pods-SUCheckButton_Tests-dummy.m */; };
+		6C24BA75F37D5A5E8115B237EB954C72 /* Pods-SUCheckButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 974380C47365301CCEF74B3C93D3A77D /* Pods-SUCheckButton_Example-dummy.m */; };
+		96971428536C9A8E6544C83EF0507E8F /* Pods-SUCheckButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D490B866128ECFF6ADF9FAD9721E29 /* Pods-SUCheckButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9900ECA0607040F32A75F8FE61C5BDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
+		9CFD528991C7A025FE2D297C3E3D4C8C /* Pods-SUCheckButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4772FDAF2D662D0E2260258521B944 /* Pods-SUCheckButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6FDE8CE2DBB08E4362FE4B21D7384C /* SUCheckButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DC9B2B14DF14EFAAED95305FCAB8BB /* SUCheckButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E080FB22D55345CC262468246F755529 /* SUCheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A41CCB8476230DC54EB96EDFD5FBB6 /* SUCheckButton.swift */; };
+		E26E2B25C4B1F5228CCF18F4831713BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
+		E2BCCDF38E106E04184DB1CD83B3A58D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D191BE5F40D91486D261D08F5D7127F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5965238C32A60A3DB3B241F50081A7DE;
+			remoteInfo = "SUCheckButton-SUCheckButton";
+		};
+		4A23D4FA4518C3A666A3332C077303B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDABE930692DFE80836BF960CBE1DE6;
+			remoteInfo = SUCheckButton;
+		};
+		A4CEAFC6203386EB93C28E84AC2424EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDABE930692DFE80836BF960CBE1DE6;
+			remoteInfo = SUCheckButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0098B33AD10007BB1FAB18E3B6A2C3AB /* Pods-SUCheckButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SUCheckButton_Example-resources.sh"; sourceTree = "<group>"; };
+		03A9752C7CA01B2EE2B7D2E13A8CE3C9 /* Pods-SUCheckButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SUCheckButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		04116A200CFD5D0AB9DF7A14213A3046 /* SUCheckButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SUCheckButton.modulemap; sourceTree = "<group>"; };
+		18D4BEF079729273327059D29AB9C684 /* Pods-SUCheckButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SUCheckButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUCheckButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31919582F53D35557E4EEB2D6C1056E9 /* Pods-SUCheckButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SUCheckButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		3705953F1D153D9DDDA85B172B7079DE /* Pods-SUCheckButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SUCheckButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50A41CCB8476230DC54EB96EDFD5FBB6 /* SUCheckButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUCheckButton.swift; sourceTree = "<group>"; };
+		58B557C527A1EB470C40EF2258405994 /* Pods-SUCheckButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SUCheckButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E56FC1AB46CFF95E8DB0D4CED6887F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B25408A7095833340E52FC34806BF4 /* Pods-SUCheckButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SUCheckButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		715CE5D4B60414E2CD534327A967AD9B /* Pods_SUCheckButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SUCheckButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		788CCD3567FC6F967EE9AB7456A61771 /* SUCheckButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SUCheckButton-prefix.pch"; sourceTree = "<group>"; };
+		7B8EB724833BE2AFC43E727F04F1B3FF /* Pods-SUCheckButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SUCheckButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		882D6BE67771B23834077D6C90BF5803 /* SUCheckButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SUCheckButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D490B866128ECFF6ADF9FAD9721E29 /* Pods-SUCheckButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SUCheckButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		973FBA6357BC78FB443F83C7C67943B1 /* Pods-SUCheckButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SUCheckButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		974380C47365301CCEF74B3C93D3A77D /* Pods-SUCheckButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SUCheckButton_Example-dummy.m"; sourceTree = "<group>"; };
+		9A07AFD7A32B2151E0AE81F45D190F28 /* Pods-SUCheckButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SUCheckButton_Example.modulemap"; sourceTree = "<group>"; };
+		A080EB5EF83A82251B7A69AEDB556CA6 /* Pods-SUCheckButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SUCheckButton_Tests.modulemap"; sourceTree = "<group>"; };
+		A48D7A3E624A6DD862C8AD9B227CC9CD /* Pods-SUCheckButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SUCheckButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C78D2D3A4CB5DC81E08B31DD181014DF /* Pods-SUCheckButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SUCheckButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CED346D88C127C1E10059FB244C49304 /* Pods_SUCheckButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SUCheckButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DC9B2B14DF14EFAAED95305FCAB8BB /* SUCheckButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SUCheckButton-umbrella.h"; sourceTree = "<group>"; };
+		E41381D86783367231AC667DD22ED261 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E45FA30EE61AF99192D988DB27F64F81 /* SUCheckButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SUCheckButton-dummy.m"; sourceTree = "<group>"; };
+		E68F60B4E1D0133BCE3C63776BF5EEEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SUCheckButton.xcconfig; sourceTree = "<group>"; };
+		EB4772FDAF2D662D0E2260258521B944 /* Pods-SUCheckButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SUCheckButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC1DF6718BB3FAC5500C023572803902 /* Pods-SUCheckButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SUCheckButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SUCheckButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64AA686E87D044D9863CF48ADBEEAEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71056BEECADE39367FC69450C2E42E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BCCDF38E106E04184DB1CD83B3A58D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779D1552BFD8D08C1FE199EA550E5D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9900ECA0607040F32A75F8FE61C5BDD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8432687CA788E0F223414D32E8DDD2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26E2B25C4B1F5228CCF18F4831713BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD957AD3A45B96857E109DC17474ED9 /* Pods-SUCheckButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E68F60B4E1D0133BCE3C63776BF5EEEE /* Info.plist */,
+				A080EB5EF83A82251B7A69AEDB556CA6 /* Pods-SUCheckButton_Tests.modulemap */,
+				A48D7A3E624A6DD862C8AD9B227CC9CD /* Pods-SUCheckButton_Tests-acknowledgements.markdown */,
+				3705953F1D153D9DDDA85B172B7079DE /* Pods-SUCheckButton_Tests-acknowledgements.plist */,
+				58B557C527A1EB470C40EF2258405994 /* Pods-SUCheckButton_Tests-dummy.m */,
+				18D4BEF079729273327059D29AB9C684 /* Pods-SUCheckButton_Tests-frameworks.sh */,
+				31919582F53D35557E4EEB2D6C1056E9 /* Pods-SUCheckButton_Tests-resources.sh */,
+				EB4772FDAF2D662D0E2260258521B944 /* Pods-SUCheckButton_Tests-umbrella.h */,
+				FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */,
+				973FBA6357BC78FB443F83C7C67943B1 /* Pods-SUCheckButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SUCheckButton_Tests";
+			path = "Target Support Files/Pods-SUCheckButton_Tests";
+			sourceTree = "<group>";
+		};
+		10C374F1D66CD4C6312555C6A5E22BA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF04833904C7EE7107A72DD26F4491 /* SUCheckButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		231328B6E81AA44209B58ADEDB5526DA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50A41CCB8476230DC54EB96EDFD5FBB6 /* SUCheckButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2ED00EF083FA9E3772A4BC41629F5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F8AF094D75C4EDAC12C31FAFB15A237 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E56FC1AB46CFF95E8DB0D4CED6887F8 /* Info.plist */,
+				04116A200CFD5D0AB9DF7A14213A3046 /* SUCheckButton.modulemap */,
+				E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */,
+				E45FA30EE61AF99192D988DB27F64F81 /* SUCheckButton-dummy.m */,
+				788CCD3567FC6F967EE9AB7456A61771 /* SUCheckButton-prefix.pch */,
+				D4DC9B2B14DF14EFAAED95305FCAB8BB /* SUCheckButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SUCheckButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				10C374F1D66CD4C6312555C6A5E22BA6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD89ABE103F63DF7D9036DD33E8EA3C6 /* Products */,
+				FF0CEF0BAA24FBE2B61CC51D74ED65A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD82DBDDAA25B17864EF0592D075AEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				231328B6E81AA44209B58ADEDB5526DA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD89ABE103F63DF7D9036DD33E8EA3C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED346D88C127C1E10059FB244C49304 /* Pods_SUCheckButton_Example.framework */,
+				715CE5D4B60414E2CD534327A967AD9B /* Pods_SUCheckButton_Tests.framework */,
+				2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */,
+				882D6BE67771B23834077D6C90BF5803 /* SUCheckButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAF04833904C7EE7107A72DD26F4491 /* SUCheckButton */ = {
+			isa = PBXGroup;
+			children = (
+				AAD82DBDDAA25B17864EF0592D075AEA /* Pod */,
+				6F8AF094D75C4EDAC12C31FAFB15A237 /* Support Files */,
+			);
+			name = SUCheckButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3DFA9D96EDF110C570BD3A9A62A1511 /* Pods-SUCheckButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E41381D86783367231AC667DD22ED261 /* Info.plist */,
+				9A07AFD7A32B2151E0AE81F45D190F28 /* Pods-SUCheckButton_Example.modulemap */,
+				7B8EB724833BE2AFC43E727F04F1B3FF /* Pods-SUCheckButton_Example-acknowledgements.markdown */,
+				EC1DF6718BB3FAC5500C023572803902 /* Pods-SUCheckButton_Example-acknowledgements.plist */,
+				974380C47365301CCEF74B3C93D3A77D /* Pods-SUCheckButton_Example-dummy.m */,
+				C78D2D3A4CB5DC81E08B31DD181014DF /* Pods-SUCheckButton_Example-frameworks.sh */,
+				0098B33AD10007BB1FAB18E3B6A2C3AB /* Pods-SUCheckButton_Example-resources.sh */,
+				93D490B866128ECFF6ADF9FAD9721E29 /* Pods-SUCheckButton_Example-umbrella.h */,
+				03A9752C7CA01B2EE2B7D2E13A8CE3C9 /* Pods-SUCheckButton_Example.debug.xcconfig */,
+				61B25408A7095833340E52FC34806BF4 /* Pods-SUCheckButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SUCheckButton_Example";
+			path = "Target Support Files/Pods-SUCheckButton_Example";
+			sourceTree = "<group>";
+		};
+		FF0CEF0BAA24FBE2B61CC51D74ED65A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3DFA9D96EDF110C570BD3A9A62A1511 /* Pods-SUCheckButton_Example */,
+				0FD957AD3A45B96857E109DC17474ED9 /* Pods-SUCheckButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10C7724DD757EEA026B36E16097A31B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6FDE8CE2DBB08E4362FE4B21D7384C /* SUCheckButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F81CE30064D8ED7E9372A2799B3316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFD528991C7A025FE2D297C3E3D4C8C /* Pods-SUCheckButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE80529E6BC816AD8EC027372999E61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96971428536C9A8E6544C83EF0507E8F /* Pods-SUCheckButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5965238C32A60A3DB3B241F50081A7DE /* SUCheckButton-SUCheckButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784B83F0A53C590B8605EA61469D7C4A /* Build configuration list for PBXNativeTarget "SUCheckButton-SUCheckButton" */;
+			buildPhases = (
+				3935C2B84292D5D4BF6A3FC5C575797A /* Sources */,
+				64AA686E87D044D9863CF48ADBEEAEA0 /* Frameworks */,
+				B7D678E32590439353077D2D08FDB4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SUCheckButton-SUCheckButton";
+			productName = "SUCheckButton-SUCheckButton";
+			productReference = 2B2017141ED106FD6EB9CC396FA02C2E /* SUCheckButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D0F1815EE0992253F8BA765EF1E0E0F6 /* Pods-SUCheckButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66428BA99E966EFDE1652A78E5E0E6D /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Tests" */;
+			buildPhases = (
+				63B43B1867BD0D7C4FCD0574C4E87506 /* Sources */,
+				8432687CA788E0F223414D32E8DDD2E1 /* Frameworks */,
+				C3F81CE30064D8ED7E9372A2799B3316 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0852D62439AA82D338ECB43A75EA077 /* PBXTargetDependency */,
+			);
+			name = "Pods-SUCheckButton_Tests";
+			productName = "Pods-SUCheckButton_Tests";
+			productReference = 715CE5D4B60414E2CD534327A967AD9B /* Pods_SUCheckButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC8B951A28E88C67DC20D0B911360544 /* Pods-SUCheckButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AC3EE2D170DA21837C95F0A44909A2 /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Example" */;
+			buildPhases = (
+				BD79DD370F9F430E9B2C27707CE3F41D /* Sources */,
+				71056BEECADE39367FC69450C2E42E6F /* Frameworks */,
+				DE80529E6BC816AD8EC027372999E61C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979D57C9ABBB7B5B83A58D9F5035D1DE /* PBXTargetDependency */,
+			);
+			name = "Pods-SUCheckButton_Example";
+			productName = "Pods-SUCheckButton_Example";
+			productReference = CED346D88C127C1E10059FB244C49304 /* Pods_SUCheckButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDDABE930692DFE80836BF960CBE1DE6 /* SUCheckButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D13C9768F2151F210E19922C9BEC5A /* Build configuration list for PBXNativeTarget "SUCheckButton" */;
+			buildPhases = (
+				A4C88AF62C9571AE9A7EC570EF40CB8D /* Sources */,
+				779D1552BFD8D08C1FE199EA550E5D0E /* Frameworks */,
+				4719CE93AF3C5964765ED28CD5A6B145 /* Resources */,
+				10C7724DD757EEA026B36E16097A31B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACFE50820E4D44D030C36887F1FB936 /* PBXTargetDependency */,
+			);
+			name = SUCheckButton;
+			productName = SUCheckButton;
+			productReference = 882D6BE67771B23834077D6C90BF5803 /* SUCheckButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD89ABE103F63DF7D9036DD33E8EA3C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8B951A28E88C67DC20D0B911360544 /* Pods-SUCheckButton_Example */,
+				D0F1815EE0992253F8BA765EF1E0E0F6 /* Pods-SUCheckButton_Tests */,
+				DDDABE930692DFE80836BF960CBE1DE6 /* SUCheckButton */,
+				5965238C32A60A3DB3B241F50081A7DE /* SUCheckButton-SUCheckButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4719CE93AF3C5964765ED28CD5A6B145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606D0F7C0E79F38A1B5AD9A2C6617930 /* SUCheckButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D678E32590439353077D2D08FDB4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3935C2B84292D5D4BF6A3FC5C575797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B43B1867BD0D7C4FCD0574C4E87506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655704CBC0DB16B118D1F506989E0BC5 /* Pods-SUCheckButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C88AF62C9571AE9A7EC570EF40CB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429C9E16947328E568D6D8AB8FBBD91C /* SUCheckButton-dummy.m in Sources */,
+				E080FB22D55345CC262468246F755529 /* SUCheckButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD79DD370F9F430E9B2C27707CE3F41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C24BA75F37D5A5E8115B237EB954C72 /* Pods-SUCheckButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979D57C9ABBB7B5B83A58D9F5035D1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SUCheckButton;
+			target = DDDABE930692DFE80836BF960CBE1DE6 /* SUCheckButton */;
+			targetProxy = A4CEAFC6203386EB93C28E84AC2424EC /* PBXContainerItemProxy */;
+		};
+		9ACFE50820E4D44D030C36887F1FB936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SUCheckButton-SUCheckButton";
+			target = 5965238C32A60A3DB3B241F50081A7DE /* SUCheckButton-SUCheckButton */;
+			targetProxy = 3D191BE5F40D91486D261D08F5D7127F /* PBXContainerItemProxy */;
+		};
+		A0852D62439AA82D338ECB43A75EA077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SUCheckButton;
+			target = DDDABE930692DFE80836BF960CBE1DE6 /* SUCheckButton */;
+			targetProxy = 4A23D4FA4518C3A666A3332C077303B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D046678EB30D47F8BD5BBE459728A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EC6AA771EDDAA84AA1655BBF1B8543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973FBA6357BC78FB443F83C7C67943B1 /* Pods-SUCheckButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SUCheckButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FF6D6F9B39EEEBFE9B42AB634E3E8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SUCheckButton/SUCheckButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SUCheckButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SUCheckButton/SUCheckButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B080611611CC63FCA855A5EF7653E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC85746E5F3372BF8EBB599FFE36685 /* Pods-SUCheckButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Tests/Pods-SUCheckButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SUCheckButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A841FA231DD0BFB3CA81E115B3422B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AC5B357B07D7A4BAE7DD3B2A180C5AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F997984C8BE601CB329E90BB302A6 /* SUCheckButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SUCheckButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D696D2078D3E4A4490F18E0A4A365573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A9752C7CA01B2EE2B7D2E13A8CE3C9 /* Pods-SUCheckButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SUCheckButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E689B71DF8ADDB6DC5EC2AB5A3E91D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B25408A7095833340E52FC34806BF4 /* Pods-SUCheckButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SUCheckButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SUCheckButton_Example/Pods-SUCheckButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SUCheckButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15AC3EE2D170DA21837C95F0A44909A2 /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D696D2078D3E4A4490F18E0A4A365573 /* Debug */,
+				E689B71DF8ADDB6DC5EC2AB5A3E91D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784B83F0A53C590B8605EA61469D7C4A /* Build configuration list for PBXNativeTarget "SUCheckButton-SUCheckButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A841FA231DD0BFB3CA81E115B3422B97 /* Debug */,
+				AC5B357B07D7A4BAE7DD3B2A180C5AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66428BA99E966EFDE1652A78E5E0E6D /* Build configuration list for PBXNativeTarget "Pods-SUCheckButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B080611611CC63FCA855A5EF7653E95 /* Debug */,
+				51EC6AA771EDDAA84AA1655BBF1B8543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D13C9768F2151F210E19922C9BEC5A /* Build configuration list for PBXNativeTarget "SUCheckButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D046678EB30D47F8BD5BBE459728A0 /* Debug */,
+				6FF6D6F9B39EEEBFE9B42AB634E3E8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

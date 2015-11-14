@@ -1,15 +1,15 @@
 {
   "name": "SUCheckButton",
   "version": "0.1.0",
-  "summary": "A short description of SUCheckButton.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SUCheckButton",
+  "summary": "light-weight check button in Swift.",
+  "description": "light-weight check button in Swift.",
+  "homepage": "https://github.com/sgr-ksmt/SUCheckButton",
   "license": "MIT",
   "authors": {
     "Su-": "su@sfidante.co.jp"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SUCheckButton.git",
+    "git": "https://github.com/sgr-ksmt/SUCheckButton.git",
     "tag": "0.1.0"
   },
   "platforms": {
