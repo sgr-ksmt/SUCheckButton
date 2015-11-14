@@ -6,6 +6,8 @@
 
 Light-weight, no use image check button.
 
+![screenshot1](screenshots/screenshot1.png)
+
 ## Features
 
 - This class is subclass of `UIControl`.
