@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SUCheckButton: efe47f2091038293b66ffcb8dd9819df11003baa
+  SUCheckButton: fe3095405c8d479d78dacab8a6fbf704346f94b9
 
-COCOAPODS: 0.39.0.beta.4
+COCOAPODS: 0.39.0
