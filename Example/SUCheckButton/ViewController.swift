@@ -46,5 +46,23 @@ class ViewController: UIViewController {
         statusLabel.text = "status : " + status
     }
 
+    private func getRandomFillColor() -> UIColor {
+        func randomValue() -> CGFloat {
+            return CGFloat(arc4random_uniform(100)) / 100.0
+        }
+        return UIColor(
+            red: randomValue(),
+            green: randomValue(),
+            blue: randomValue(),
+            alpha: 1.0)
+    }
+    @objc @IBAction private func changeCheckedFillColor(sender: AnyObject!) {
+        checkButton.checkedFillColor = getRandomFillColor()
+    }
+    
+    @objc @IBAction private func changeUncheckedFillColor(sender: AnyObject!) {
+        checkButton.uncheckedFillColor = getRandomFillColor()
+    }
+
 }
 
