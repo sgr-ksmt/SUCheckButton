@@ -1,30 +1,19 @@
-#
-# Be sure to run `pod lib lint SUCheckButton.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SUCheckButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SUCheckButton."
+  s.summary          = "light-weight check button in Swift."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+light-weight check button in Swift.
+Equip @IBInspectable, @IBDesignable.
+SUCheckButton is Subclass of UIControl.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SUCheckButton"
+  s.homepage         = "https://github.com/sgr-ksmt/SUCheckButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Su-" => "su@sfidante.co.jp" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SUCheckButton.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Suguru Kishimoto" => "su@sfidante.co.jp" }
+  s.source           = { :git => "https://github.com/sgr-ksmt/SUCheckButton.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

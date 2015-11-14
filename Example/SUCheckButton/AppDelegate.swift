@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SUCheckButton
 //
-//  Created by Su- on 11/13/2015.
-//  Copyright (c) 2015 Su-. All rights reserved.
+//  Created by Suguru Kishimoto on 11/13/2015.
+//  Copyright (c) 2015 Suguru Kishimoto. All rights reserved.
 //
 
 import UIKit
