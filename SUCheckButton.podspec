@@ -10,7 +10,7 @@ light-weight check button in Swift.
   s.homepage         = "https://github.com/sgr-ksmt/SUCheckButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Su-" => "su@sfidante.co.jp" }
+  s.author           = { "Suguru Kishimoto" => "su@sfidante.co.jp" }
   s.source           = { :git => "https://github.com/sgr-ksmt/SUCheckButton.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'

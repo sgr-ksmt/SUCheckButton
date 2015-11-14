@@ -1,6 +1,5 @@
 # SUCheckButton
 
-[![CI Status](http://img.shields.io/travis/Su-/SUCheckButton.svg?style=flat)](https://travis-ci.org/Su-/SUCheckButton)
 [![Version](https://img.shields.io/cocoapods/v/SUCheckButton.svg?style=flat)](http://cocoapods.org/pods/SUCheckButton)
 [![License](https://img.shields.io/cocoapods/l/SUCheckButton.svg?style=flat)](http://cocoapods.org/pods/SUCheckButton)
 [![Platform](https://img.shields.io/cocoapods/p/SUCheckButton.svg?style=flat)](http://cocoapods.org/pods/SUCheckButton)
@@ -10,6 +9,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- Xcode 7.0
+- Swift 2.0 (2.1 is not fully compatible)
 
 ## Installation
 
@@ -22,7 +24,7 @@ pod "SUCheckButton"
 
 ## Author
 
-Su-, su@sfidante.co.jp
+Suguru Kishimoto, su@sfidante.co.jp
 
 ## License
 
