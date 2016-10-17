@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SUCheckButton"
-  s.version          = "0.1.3"
+  s.version          = "0.2.0"
   s.summary          = "light-weight check button in Swift."
 
   s.description      = <<-DESC
@@ -18,9 +18,6 @@ SUCheckButton is Subclass of UIControl.
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'SUCheckButton' => ['Pod/Assets/*.png']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -18,8 +18,8 @@ Light-weight, no use image check button.
 
 ## Requirements
 
-- Xcode 7.0
-- Swift 2.0 (2.1 is not fully compatible)
+- Xcode 8.0
+- Swift 3.0
 
 ## Installation
 
